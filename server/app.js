@@ -33,3 +33,4 @@ app.get('/getAll', (request, response) => {
 
 //Make sure our local server is working
 app.listen(process.env.PORT, () => console.log('app is running'));
+//console.log(process.env.PORT);
